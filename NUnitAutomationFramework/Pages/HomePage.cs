@@ -34,7 +34,6 @@ namespace NUnitAutomationFramework.Pages
             test.Log(Status.Info, "Successfully mouseover on Mouseover button");
             ActionsElements.Click(driver, By.XPath(top));
             test.Log(Status.Info, "Successfully clicked on top button");
-
         }
     }
 }

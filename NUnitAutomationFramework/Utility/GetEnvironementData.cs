@@ -18,7 +18,7 @@ namespace NUnitAutomationFramework.Utility
             {
                 string? env = ConfigurationManager.AppSettings["Environment"];
                 string currentdirectory = Directory.GetParent(System.Environment.CurrentDirectory)?.Parent?.Parent?.FullName;
-                string? jsonstring = File.ReadAllText(currentdirectory + "\\Resources\\Enviornment.json");
+                string? jsonstring = File.ReadAllText(currentdirectory + "/Resources/Enviornment.json");
                 var json = JToken.Parse(jsonstring);
                 Object? o = json?.SelectToken(env)?.Value<object>(data);
                 url = o?.ToString();

@@ -20,7 +20,7 @@ namespace NUnitAutomationFramework.Utility
                 string? env = ConfigurationManager.AppSettings["Environment"];
                 var random = new Random();
                 string currentdirectory = Directory.GetParent(System.Environment.CurrentDirectory)?.Parent?.Parent?.FullName;
-                string? jsonstring = File.ReadAllText(currentdirectory + "\\Resources\\UsersList.json");
+                string? jsonstring = File.ReadAllText(currentdirectory + "/Resources/UsersList.json");
                 var json = JToken.Parse(jsonstring);
                 Object? o = json?.SelectToken(env)?.Value<object>(userlist);
                 List<JToken> list = JArray.FromObject(o).ToList();

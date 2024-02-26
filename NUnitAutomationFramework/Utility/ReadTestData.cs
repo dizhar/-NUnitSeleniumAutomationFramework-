@@ -20,7 +20,7 @@ namespace NUnitAutomationFramework.Utility
                 string? currentdirectory = Directory.GetParent(System.Environment.CurrentDirectory)?.Parent?.Parent?.FullName;
 
                 XmlDocument xmldoc = new XmlDocument();
-                xmldoc.Load(currentdirectory + "\\Resources\\TestData.xml");
+                xmldoc.Load(currentdirectory + "/Resources/TestData.xml");
                 XmlNodeList? nodeList = xmldoc.SelectNodes("TestCases/TestCase");
 
                 foreach (XmlNode node in nodeList)
