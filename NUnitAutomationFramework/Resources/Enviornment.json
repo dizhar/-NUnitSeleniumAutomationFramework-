@@ -1,6 +1,6 @@
 ﻿{
   "QA": {
-    "WebURL": "https://rahulshettyacademy.com/AutomationPractice/",
+    "WebURL": "https://en.wikipedia.org/wiki/Test_automation",
     "BaseAPI": "192.0.0.0/baseurl",
     "DataBaseURL": "192.0.0.0/DB"
   },

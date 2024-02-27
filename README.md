@@ -5,7 +5,7 @@ It supports chrome, firefox, and IE browser for local environment testing. Also,
 * Note: It can run on the Cloud (Remote) also like the Browser stack etc. Browser stack code is integrated.
 
 # Pre-requisites
-* Windows OS
+* Windows or MAc O
 * Visual Studio
 
 # Get Started
@@ -51,13 +51,18 @@ It will execute testcase in parllel method.
 # Report
 An extent report is used to generate the report. Once execution is completed, navigate to the Reports folder, right-click on index.html file and open it with the respective system browser.
 
-# Contionus improvement to the framework is in progress
+## Bug Severity Levels:
 
-# Feedback
-Do provide your feedback and report issues in the issue tracking section, happy to help.
+1. **Critical**: Renders the system unusable or causes critical data loss.
+2. **High**: Causes major disruptions or impairments.
+3. **Medium**: Moderately impacts functionality, with workarounds.
+4. **Low**: Represents minor issues or cosmetic defects.
 
-# Contact
-If you have any questions or need some help with the repo, please do contact me.
+## Severity vs. Priority:
+
+- **Severity**: Measures impact on functionality.
+- **Priority**: Determines order of fixing based on urgency.
+
 
 
 
